@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";import DiscoverEvents from "./DiscoverEvents";
 import "./App.css";
+import poster from './assets/poster.jpeg';
 
 function App() {
   const [formData, setFormData] = useState({
@@ -57,11 +58,7 @@ function App() {
             <div className="event-container">
               {/* Left: Poster & Details */}
               <div className="event-left">
-                <img
-                  src="/images/421222A0-8D08-4641-B0EF-E46EC6C2A745_1_201_a.jpeg"
-                  alt="AI Workshop Series Poster"
-                  className="event-poster"
-                />
+              <img src={poster} alt="AI Workshop Series Poster" />
                 <div className="event-details">
                   <div><strong>Date:</strong> May 25-27, 2025</div>
                   <div><strong>Time:</strong> 10:00 AM - 4:00 PM</div>
