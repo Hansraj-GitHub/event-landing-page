@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";import DiscoverEvents from "./DiscoverEvents";
 import "./App.css";
-import "../public/images/421222A0-8D08-4641-B0EF-E46EC6C2A745_1_201_a.jpeg"
 
 function App() {
   const [formData, setFormData] = useState({
@@ -59,7 +58,7 @@ function App() {
               {/* Left: Poster & Details */}
               <div className="event-left">
                 <img
-                  src=""
+                  src="/images/421222A0-8D08-4641-B0EF-E46EC6C2A745_1_201_a.jpeg"
                   alt="AI Workshop Series Poster"
                   className="event-poster"
                 />
